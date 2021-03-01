@@ -1,0 +1,16 @@
+namn          vad det är                      Enhet
+avst        //avstånd från mig till flyget      //kilometer
+riktning    //från enhet till flyg              
+kurs        //flygets riktning                  
+flight      //temporär unik kod                 //alfanumeriskt 3 bokstäver, 3 nummer
+squawk      //status kod                        //HEX
+kategori    //vilket typ av flyg                //KOD(1-4?)
+altitude    //flygets höjd över havet           //FOOT
+hexKod      //konstant unik kod                 //HEX
+tergetX     //?
+targetY     //?
+kursX       //?
+kursY       //?
+kursVektorX //?
+kursVektorY //?
+inTheDark   //?
