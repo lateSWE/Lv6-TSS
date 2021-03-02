@@ -1,27 +1,24 @@
 import json
 import time
 import re
-'''
-def readJson():
-    fileObject = open("simple-aircraft.json", "r")
-    jsonContent = fileObject.read()
-    return(json.loads(jsonContent))
 
-while True:
-    readList = readJson()
-    temp = "now: {}".format(readList["now"])
-    print(temp)
-    time.sleep(1)
-'''
+#   variables to use in the program
+#   what file to use
+url = input("What file? ")
+#url = "aircraft.json"
+#   the refresh rate the program should work at in Seconds
+refreshRate = input("What refresh rate? ")
+#refreshRate = 1
+
+
 #loads the .json file
-def readJson():
-    url = "aircraft.json"
-    f = open(url, 'r')
+def readJson(URL):
+    f = open(URL, 'r')
     return(f)
     f.close()
 
 while True:
-    data = json.load(readJson())
+    data = json.load(readJson(url))
     Time        = data['now']
     Aircraft    = data['aircraft']
     AircraftLen = len(Aircraft)
@@ -54,10 +51,4 @@ while True:
             print("Aircraft number: {}".format(i+1))
             print("not correct data from .json file \n")
 
-    time.sleep(1)
-
-
-
-
-# formats the "aircraft" dictionary
-# temp = re.sub("\[|{|}|\]", "", str(data['aircraft])).split(', ')
+    time.sleep(refreshRate)
