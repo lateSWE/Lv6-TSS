@@ -4,10 +4,10 @@ import re
 
 #   variables to use in the program
 #   what file to use
-url = input("What file? ")
+url = input("What file?(.json) ")
 #url = "aircraft.json"
 #   the refresh rate the program should work at in Seconds
-refreshRate = input("What refresh rate? ")
+refreshRate = int(input("What refresh rate?"))
 #refreshRate = 1
 
 
