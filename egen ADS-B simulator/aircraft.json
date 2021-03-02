@@ -1,0 +1,9 @@
+{ "now" : 1614698867.8,
+  "messages" : 11284,
+  "aircraft" : [
+    {"hex":"4ca65f","squawk":"0227","flight":"SAS408  ","lat":56.288266,"lon":13.673515,"nucp":7,"seen_pos":22.0,"altitude":27650,"vert_rate":64,"track":36,"speed":455,"category":"A3","mlat":[],"tisb":[],"messages":3060,"seen":9.4,"rssi":-31.7},
+    {"hex":"4bb0e2","flight":"THY17W  ","lat":56.206753,"lon":11.132841,"nucp":7,"seen_pos":63.3,"altitude":38000,"category":"A5","mlat":[],"tisb":[],"messages":888,"seen":31.1,"rssi":-34.8},
+    {"hex":"48435d","squawk":"3514","flight":"GJW46BO ","lat":56.274399,"lon":12.890875,"nucp":0,"seen_pos":34.4,"altitude":36075,"vert_rate":64,"track":232,"speed":399,"category":"A0","mlat":[],"tisb":[],"messages":6278,"seen":16.4,"rssi":-33.1},
+    {"hex":"49d307","mlat":[],"tisb":[],"messages":1053,"seen":166.1,"rssi":-33.8}
+  ]
+}

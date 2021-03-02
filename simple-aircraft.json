@@ -1,0 +1,6 @@
+{ "now" : 1614698867.8,
+  "messages" : 11284,
+  "aircraft" : [
+    {"hex":"4ca65f","squawk":"0227","flight":"SAS408  ","lat":56.288266,"lon":13.673515,"nucp":7,"seen_pos":22.0,"altitude":27650,"vert_rate":64,"track":36,"speed":455,"category":"A3","mlat":[],"tisb":[],"messages":3060,"seen":9.4,"rssi":-31.7}
+  ]
+}
