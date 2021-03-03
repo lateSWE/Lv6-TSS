@@ -1,0 +1,6 @@
+{ "now" : 100,
+  "messages" : 200,
+  "aircraft" : [
+    {"hex": 300}
+  ]
+}

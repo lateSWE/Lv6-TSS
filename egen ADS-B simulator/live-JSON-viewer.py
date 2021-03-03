@@ -2,7 +2,7 @@ import json
 import time
 
 def readJson():
-    fileObject = open("data.json", "r")
+    fileObject = open("temp.json", "r")
     jsonContent = fileObject.read()
     return(json.loads(jsonContent))
 
